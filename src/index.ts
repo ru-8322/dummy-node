@@ -12,7 +12,7 @@ const APP_NAME = process.env.APP_NAME || "My App";
 // Dummy route
 app.get("/", (req: Request, res: Response) => {
     res.json({
-        message: `🚀 Hello from ${APP_NAME}!`,
+        message: `🚀 Hello from ${APP_NAME}! Rupam`,
         port: PORT,
         time: new Date().toISOString(),
     });
