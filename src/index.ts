@@ -20,5 +20,5 @@ app.get("/", (req: Request, res: Response) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`✅ ${APP_NAME} running at http://localhost:${PORT}`);
+    console.log(`✅ ${APP_NAME} vvvv running at http://localhost:${PORT}`);
 });
